@@ -79,14 +79,17 @@
     font-size: 1em;
     font-weight: bold;
 }
-.mycard .card-body{
-    border: 1px ;
-    height: 12rem;
-    width: 100rem;
-    text-align: center;
-    align-items: center;
-    /* padding: 30px 10px 20px 10px; */
+.card{
+    display: inline-block;
+    margin-left: 150px;
 }
-.mycard {
-    margin: 10px 150px;
+/* .card-body {
+    margin: 20px 40px 20px 40px;
+    padding: 10px 40px 10px 40px;
+} */
+.mycard .card-body{
+    max-width: fit-content;
+    text-align: center;
+    margin: auto;
+
 }
