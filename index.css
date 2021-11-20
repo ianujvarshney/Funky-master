@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.form-inline .form-control{
+    border-radius: 50px;
+    text-align: center;
+    padding-right: 40px;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 50%;
+}
+.fas{
+    position:relative;
+    left: 30px;
+}
+@media (max-width:550px)
+{
+    .form-inline .fas{
+        position: relative;
+        left: 22px;
+        top: 27px;
+    }
+}
+.navbar-nav .nav-item{
+    margin: 10px 8px;
+}
+.nav-item .nav-link{
+    font-weight: bold;
+}
+.nav-item .nav-link:hover{
+    color: red;
+}
+.nav-item .nav-link .far{
+    padding: 20px;
+}
+
+.nav-item #new{
+    border-radius: 20px;
+    padding: 2px 5px;
+    margin-top:5px ;
+    margin-left: 10px;
+}
+.nav-item .bt1{
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 4px 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: blue;
+}
+.img1{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.img1:hover{
+    color: rgb(231, 9, 9);    
+}
+#new1{
+    border-radius: 10px;
+}
+#new1:hover{
+    color: dodgerblue;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.heading{
+    margin: 50px 150px;
+    font-weight: bold;
+}
+.head1{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 140px;
+    font-size: 1em;
+    font-weight: bold;
+}
+.mycard .card-body{
+    border: 1px ;
+    height: 12rem;
+    width: 100rem;
+    text-align: center;
+    align-items: center;
+    /* padding: 30px 10px 20px 10px; */
+}
+.mycard {
+    margin: 10px 150px;
+}
