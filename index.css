@@ -68,28 +68,26 @@
 .dropdown:hover .dropdown-menu{
     display: block;
 }
-.heading{
+ .heading{
     margin: 50px 150px;
     font-weight: bold;
 }
 .head1{
-    display: inline-block;
     margin-top: 20px;
     margin-left: 140px;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: bold;
-}
-.card{
+} 
+.mycard{
     display: inline-block;
     margin-left: 150px;
 }
-/* .card-body {
-    margin: 20px 40px 20px 40px;
-    padding: 10px 40px 10px 40px;
-} */
 .mycard .card-body{
     max-width: fit-content;
+    border: 2px dotted;
+    border-radius: 20px;
     text-align: center;
-    margin: auto;
-
+    margin: 0;
+    height: 200px;
+    width: 30em;    
 }
