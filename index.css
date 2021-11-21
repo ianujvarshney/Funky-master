@@ -91,3 +91,17 @@
     height: 200px;
     width: 30em;    
 }
+.latest{
+    position:absolute;
+    top: 220px;
+    left: 700px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.latest-card{
+    position: absolute;
+    top: 250px;
+    left: 680px;
+    border-radius:20px; 
+}
+
